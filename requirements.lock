@@ -49,24 +49,27 @@ cryptography==42.0.5
     # via pyjwt
 cycler==0.12.1
     # via matplotlib
-dagster==1.7.1
+dagster==1.7.7
     # via dagster-cloud
+    # via dagster-cloud-cli
     # via dagster-graphql
     # via dagster-webserver
     # via nfl-bigdata-pipeline
-dagster-cloud==1.7.1
+dagster-cloud==1.7.7
     # via nfl-bigdata-pipeline
-dagster-cloud-cli==1.7.1
+dagster-cloud-cli==1.7.7
     # via dagster-cloud
-dagster-graphql==1.7.1
+dagster-graphql==1.7.7
     # via dagster-webserver
-dagster-pipes==1.7.1
+dagster-pipes==1.7.7
     # via dagster
-dagster-webserver==1.7.1
+dagster-webserver==1.7.7
     # via nfl-bigdata-pipeline
 datetime==5.5
     # via nfl-bigdata-pipeline
 docstring-parser==0.16
+    # via dagster
+filelock==3.14.0
     # via dagster
 fonttools==4.51.0
     # via matplotlib
@@ -76,7 +79,6 @@ github3-py==4.0.1
     # via dagster-cloud-cli
 gql==3.5.0
     # via dagster-graphql
-    # via gql
 graphene==3.3
     # via dagster-graphql
 graphql-core==3.2.3
@@ -161,7 +163,6 @@ pygments==2.17.2
     # via rich
 pyjwt==2.8.0
     # via github3-py
-    # via pyjwt
 pyparsing==3.1.2
     # via matplotlib
 pytest==8.1.1
@@ -214,6 +215,9 @@ scikit-learn==1.4.2
     # via nfl-bigdata-pipeline
 scipy==1.13.0
     # via scikit-learn
+setuptools==69.2.0
+    # via dagster
+    # via zope-interface
 shellingham==1.5.4
     # via typer
 six==1.16.0
@@ -284,6 +288,3 @@ yarl==1.9.4
     # via gql
 zope-interface==6.3
     # via datetime
-setuptools==69.2.0
-    # via dagster
-    # via zope-interface
