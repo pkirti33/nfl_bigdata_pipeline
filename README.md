@@ -24,7 +24,7 @@ The data manipulation and analysis pipeline was created using Dagster. The packa
 4. Run `source .venv/bin/activate`
 
 ### Set up the Kaggle API
-1. Follow the Installation and Authentication instructions [here](https://github.com/pkirti33/nfl_bigdata_pipeline.git).
+1. Follow the Installation and Authentication instructions [here](https://www.kaggle.com/docs/api).
 2. Within the nfl_bigdata_pipeline directory, create a new file called `.env`. In this file, type in:
 ```
 KAGGLE_USERNAME = "your kaggle username"
