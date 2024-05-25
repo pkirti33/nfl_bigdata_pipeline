@@ -4,4 +4,6 @@ tmp*/
 .env
 __pycache__/
 test/__pycache__/
+.pytest_cache/
 src/nfl_bigdata_pipeline/__pycache__/
+src/nfl_bigdata_pipeline.egg-info/

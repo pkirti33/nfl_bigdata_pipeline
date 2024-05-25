@@ -19,7 +19,7 @@ The data manipulation and analysis pipeline was created using Dagster. The packa
 ## Getting Started
 ### Set up the virtual environment
 1. In a directory of your choice, run `git clone https://github.com/pkirti33/nfl_bigdata_pipeline.git`
-2. Open a new terminal window inside the recently-created nfl_bigdata_pipeline directory. 
+2. Open a VS Code window with this project and open a new terminal. 
 3. Run `bash setup_venv.sh`.
 4. Run `source .venv/bin/activate`
 
@@ -28,7 +28,7 @@ The data manipulation and analysis pipeline was created using Dagster. The packa
 2. Within the nfl_bigdata_pipeline directory, create a new file called `.env`. In this file, type in:
 ```
 KAGGLE_USERNAME = "your kaggle username"
-KAGGLE_KEY = "your kaggle API key" # note that these values can be found in kaggle.json that was downloaded in the previous step. 
+KAGGLE_KEY = "your kaggle API key" 
 ```
 
 ### Launch the Dagster tool
