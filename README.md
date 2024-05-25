@@ -11,7 +11,9 @@ The data manipulation and analysis pipeline was created using Dagster. The packa
 ## Repository Conents
 
 `src/assets.py`: This file contains all the assets used in the Dagster pipeline, including those for data retrieval, data manipulation, and model training.
+
 `test/test_assets.py`: This file contains a few tests our team wrote to ensure proper pipeline functionality. 
+
 `model_results/random_forest_results.json`: This json contains the model accuracy and confusion matrix.
 
 ## Getting Started
