@@ -1,7 +1,5 @@
 # NFL Big Data Bowl 2024 Pipeline: Predicting Forced Fumbles
 
-This repository contains a machine learning model for the [NFL Big Data Bowl 2024](https://www.kaggle.com/competitions/nfl-big-data-bowl-2024) competition on Kaggle.
-
 ## Project Overview
 
 The NFL Big Data Bowl is an annual competition where participants analyze NFL data and create innovative solutions to various football-related problems. In this project, my team and I train a random forest classification model to predict when a tackle will result in a forced fumble based on field position, charge caracteristics (speed, acceleration, etc.), player stature (height, weight, etc) and more. The model achieved an accuracy of 98.61% with a low rate of false positives and false negatives.
