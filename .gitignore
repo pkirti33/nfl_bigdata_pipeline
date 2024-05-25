@@ -1,0 +1,7 @@
+data/
+tmp*/
+.venv/
+.env
+__pycache__/
+test/__pycache__/
+src/nfl_bigdata_pipeline/__pycache__/
