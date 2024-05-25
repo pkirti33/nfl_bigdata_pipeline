@@ -17,7 +17,10 @@ The data manipulation and analysis pipeline was created using Dagster. The packa
 `model_results/random_forest_results.json`: This json contains the model accuracy and confusion matrix.
 
 ## Getting Started
-
+1. Either pull this repository from GitHub or navigate to Code (upper left) --> Codespaces --> Create a codespace on main
+2. Open a new terminal window inside the nfl_bigdata_pipeline repository. Run `bash setup_env.sh`.
+3. Open a new terminal window and run `source "$HOME/.rye/env"`
+4. Run `rye sync`
 
 ## Authors:
 Pranav Kirti, Will Pagliaro, Ryan Lo, Joseph Lee @ Washington University in St. Louis
