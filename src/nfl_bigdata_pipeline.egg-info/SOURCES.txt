@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+src/nfl_bigdata_pipeline/__init__.py
+src/nfl_bigdata_pipeline/assets.py
+src/nfl_bigdata_pipeline.egg-info/PKG-INFO
+src/nfl_bigdata_pipeline.egg-info/SOURCES.txt
+src/nfl_bigdata_pipeline.egg-info/dependency_links.txt
+src/nfl_bigdata_pipeline.egg-info/requires.txt
+src/nfl_bigdata_pipeline.egg-info/top_level.txt
+test/test_assets.py

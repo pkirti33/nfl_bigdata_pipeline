@@ -1,7 +1,7 @@
 [project]
 name = "nfl_bigdata_pipeline"
 version = "0.1.0"
-description = "Add your description here"
+description = "Your project description here"
 authors = [
     { name = "pkirti33", email = "kirti.p@wustl.edu" }
 ]
@@ -19,22 +19,15 @@ dependencies = [
     "python-dotenv>=1.0.1",
 ]
 readme = "README.md"
-requires-python = ">= 3.8"
-
+requires-python = ">=3.8"
 
 [build-system]
-requires = ["hatchling"]
-build-backend = "hatchling.build"
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
 
 [tool.rye]
 managed = true
 dev-dependencies = []
-
-[tool.hatch.metadata]
-allow-direct-references = true
-
-[tool.hatch.build.targets.wheel]
-packages = ["src/nfl_bigdata_pipeline"]
 
 [tool.dagster]
 module_name = "nfl_bigdata_pipeline"
